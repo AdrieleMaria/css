@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    font-size: large;
+}
+
+h1:hover {
+    color: red;
+}
+
+p::after{
+    content: " : ";
+}
+
+#unico {
+    color: blue;
+}
+
+.teste {
+    color: blueviolet;
+}
+
