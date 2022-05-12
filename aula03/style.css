@@ -1,0 +1,38 @@
+body {
+    background-color: blue;
+    display: block;
+    
+}
+
+header {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+main {
+    background-color: crimson;
+    display: grid;
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+
+}
+ 
+p {
+    background-color: bisque;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
