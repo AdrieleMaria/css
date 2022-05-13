@@ -1,0 +1,35 @@
+
+
+body {
+
+    background-color: antiquewhite;
+
+}
+
+header {
+    border: solid;
+    border-color: blueviolet;
+    background-image: url(imagem.png);
+    background-size: contain;
+}
+
+main {
+    
+    background-color: blue;
+    background-attachment: local ; 
+    height: 400px;    
+    background-image: url(imagem.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+footer {
+
+    background-image: linear-gradient(to right, violet, yellow);
+    border-radius: 10px;
+    height: 50px;
+    
+    opacity: 80%;
+    
+}
