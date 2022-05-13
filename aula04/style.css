@@ -24,6 +24,12 @@ main {
     
 }
 
+img {
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
 footer {
 
     background-image: linear-gradient(to right, violet, yellow);
