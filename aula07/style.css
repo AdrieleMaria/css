@@ -9,15 +9,64 @@ body {
     background-size: 100%;
 }
 
-main{
-    display: flex;
 
-}
 
 .container{
+    display: flex;
+    
     padding: 30px;
 }
 
 section {
     display: flex;
+    flex: content;
+    height: 200px;
+}
+.hexa{
+    background-color:#943bde;
+    flex-grow: 2;
+
+}
+
+.hexaTransp{
+    background-color:#953bde70;
+
+}
+
+.rgb{
+
+    background-color: rgb(30, 144, 255);
+    flex-grow: 2;
+
+}
+
+.rgba{
+    background-color:  rgba(30, 143, 255, 0.356);
+    flex-grow: 2;
+
+}
+
+.hsl{
+    background-color: hsl(180, 100%, 60%);
+    flex-grow: 2;
+
+}
+
+.hsla{
+
+    background-color: hsla(180, 100%, 60%, 0.336);
+    flex-grow: 2;
+
+}
+
+.predefinida{
+    background-color: crimson;
+    flex-grow: 2;
+
+}
+
+.atual{
+    background-color: currentColor;
+    flex-grow: 2;
+
 }
