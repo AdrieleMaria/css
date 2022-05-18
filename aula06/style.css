@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #faebd7,#ffc0cb);
+
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(192, 98, 145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ul{
+    list-style: square;
+}
+
+
+a:link{
+    color: crimson;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: blueviolet;
+    size: 2rem;
+}
+
+a:focus{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+h3{
+    font-family: 'Macondo&display';
+}
+
