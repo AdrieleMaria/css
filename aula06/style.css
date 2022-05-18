@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
 @font-face {
     font-family: 'alex_brushregular';
     src: url('alexbrush-regular-webfont.woff2') format('woff2'),
@@ -8,7 +11,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 body {
     background-image: linear-gradient(to right, #faebd7,#ffc0cb);
@@ -53,6 +55,6 @@ a:active{
 }
 
 h3{
-    font-family: 'Macondo&display';
+    font-family: 'Macondo', cursive;
 }
 
