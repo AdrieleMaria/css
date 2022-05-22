@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 50px;
+
+}
+
+header{
+    text-align: center;
+}
+
+.nowrap{
+    display: flex;
+    padding: 20px;
+    flex-wrap: nowrap;
+    width: 500px;
+
+}
+
+.wrap{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.wrap-reverse{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
+    width: 500px;
+
+}
+
+footer{
+    text-align: center;
+}
